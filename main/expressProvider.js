@@ -11,8 +11,8 @@ ex.use(
 )
 
 ex.listen(port, () => {
-    console.log(`Listening on port ${port}!\n`)
-  });
+  console.log(`Listening on port ${port}!\n`)
+});
 
 
 module.exports = ex;
