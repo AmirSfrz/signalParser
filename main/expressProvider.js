@@ -11,7 +11,7 @@ ex.use(
 )
 
 ex.listen(port, () => {
-    console.log(`Example app listening on port ${port}!\n`)
+    console.log(`Listening on port ${port}!\n`)
   });
 
 
