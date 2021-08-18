@@ -4,7 +4,7 @@ provider.get('/', (req, res) => {
   res.send('Hello World!')
 });
 
-provider.post('/hiPost', function (req, res) {
+provider.post('/parse-signal', function (req, res) {
  
   let reqData = req.body.data.toString();
   let parsedData = parseSignal360Data(reqData);
